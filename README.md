@@ -6,7 +6,7 @@ WS2812B是目前最流行的RGB全彩LED控制方案，只需要一根信号线�
 
 ## WS2812B控制
 驱动时序很简单，遵循下表的要求即可，容差范围比较大
-![](http://qiniu.datasheep.cn/20191029015743.png)
+![](http://qiniu.datasheep.cn/20191029024543.png)
 
 LED的色彩控制格式如下
 ![](http://qiniu.datasheep.cn/20191029015905.png)
@@ -34,9 +34,13 @@ const uint8_t one =  0xf8;  //11111000
 * 配置SYS-Debug Serial Wire
 * 配置RCC Crystal/Ceramic Resonator (非必需，可使用内部晶振)
 * 配置SPI1 如图配置，注意NSSP默认是开启的
+
 ![](http://qiniu.datasheep.cn/20191029022007.png)
+
 * 配置DMA 
+
 ![](http://qiniu.datasheep.cn/20191029022154.png)
+
 * 配置时钟为48MHz
 
 ## 硬件
