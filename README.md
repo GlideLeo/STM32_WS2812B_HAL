@@ -61,7 +61,8 @@ const uint8_t one =  0xf8;  //11111000
 截取一个Byte来看，可以明显看出来0和1，周期为1.34 us.
 ![](http://qiniu.datasheep.cn/20191029023110.png)
 
-效果：
+## 效果：
+
 ![](resources/LED_Test.gif)
 
 
