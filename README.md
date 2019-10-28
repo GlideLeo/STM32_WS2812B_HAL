@@ -62,7 +62,7 @@ const uint8_t one =  0xf8;  //11111000
 ![](http://qiniu.datasheep.cn/20191029023110.png)
 
 效果：
-![](http://qiniu.datasheep.cn/LED_Test.gif)
+![](resources/LED_Test.gif)
 
 
 
